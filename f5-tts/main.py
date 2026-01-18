@@ -8,8 +8,8 @@ target_texts = [text.strip() for text in target_texts]
 with open("../reference_text.txt", "r") as f:
     reference_text = f.read().strip()
 
-# model_names = ['E2TTS_Base', 'F5TTS_Base', 'F5TTS_v1_Base']
-model_names = ['F5TTS_Base', 'F5TTS_v1_Base']
+model_names = ['E2TTS_Base', 'F5TTS_Base', 'F5TTS_v1_Base']
+# model_names = ['F5TTS_Base', 'F5TTS_v1_Base']
 
 for model_name in model_names:
     tts_model = F5TTS(model=model_name)
