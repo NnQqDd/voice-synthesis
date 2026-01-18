@@ -1,6 +1,10 @@
 .venv/
 __pycache__/
 synthetic-audios/
+voice-clone-audios/
+voice-conversion-audios/
 *.pt
 *.pth
 *.bin
+output.wav
+test.wav
