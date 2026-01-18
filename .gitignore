@@ -3,6 +3,8 @@ __pycache__/
 synthetic-audios/
 voice-clone-audios/
 voice-conversion-audios/
+Real-Time-Voice-Cloning/*
+!Real-Time-Voice-Cloning/main.py
 *.pt
 *.pth
 *.bin

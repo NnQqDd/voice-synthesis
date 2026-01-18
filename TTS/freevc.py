@@ -6,6 +6,6 @@ tts = TTS(model_name="voice_conversion_models/multilingual/vctk/freevc24", progr
 # Perform voice conversion
 tts.voice_conversion_to_file(
     source_wav="../reference_audio.wav",  # Audio with the content/prosody to keep
-    target_wav="path/to/target_voice.wav",  # Reference audio for the desired voice
-    file_path="output_converted.wav"       # Output file
+    target_wav="../target_audio.wav",  # Reference audio for the desired voice
+    file_path="output.wav"       # Output file
 )
