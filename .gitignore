@@ -5,6 +5,10 @@ voice-clone-audios/
 voice-conversion-audios/
 Real-Time-Voice-Cloning/*
 !Real-Time-Voice-Cloning/main.py
+DDDM-VC/*
+!DDDM-VC/main.py
+!DDDM-VC/minimal.txt
+!DDDM-VC/requirements.txt
 *.pt
 *.pth
 *.bin
