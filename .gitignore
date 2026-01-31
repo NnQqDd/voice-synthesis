@@ -23,6 +23,9 @@ QuickVC-VoiceConversion/*
 !QuickVC-VoiceConversion/mel_processing.py
 !QuickVC-VoiceConversion/main.py
 !QuickVC-VoiceConversion/requirements.txt
+ppg-vc/*
+!ppg-vc/convert_from_wav.py
+!ppg-vc/requirements.txt
 *.pt
 *.pth
 *.bin
