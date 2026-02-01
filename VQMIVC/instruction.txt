@@ -1,0 +1,4 @@
+pip install -U pip setuptools wheel
+--no-build-isolation
+vocoder directory
+--feats-scp -> scp, args.feats_scp -> args.scp

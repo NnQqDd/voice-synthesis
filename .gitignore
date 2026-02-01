@@ -26,6 +26,14 @@ QuickVC-VoiceConversion/*
 ppg-vc/*
 !ppg-vc/convert_from_wav.py
 !ppg-vc/requirements.txt
+VQMIVC/*
+!VQMIVC/convert_example.py
+!VQMIVC/requirements.txt
+!VQMIVC/instruction.txt
+adaptive_voice_conversion/*
+!adaptive_voice_conversion/inference.py
+!adaptive_voice_conversion/requirements.txt
+SpeechSplit/*
 *.pt
 *.pth
 *.bin
